@@ -1,0 +1,16 @@
+
+<div class="wrapper">
+    <h2 class="result_title">{{name}}</h2>
+    <p><span class="result_text__bolt" Capital:</span> {{capital}}</p>
+    <p><span class="result_text__bolt">Population:</span>  {{population}}</p>
+    <p><span class="result_text__bolt">Languages:</span> </p>
+    <ul>
+        {{#each languages}}
+        <li>{{this.name}}</li>
+        {{/each}}
+    </ul>
+</div>
+<div class="wrapper">
+    <img src="{{flag}}" alt="{{name}} flag" width="250" >
+</div>
+

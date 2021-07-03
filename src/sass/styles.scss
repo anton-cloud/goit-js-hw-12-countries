@@ -1,0 +1,29 @@
+body {
+  font-size: 25px;
+}
+.search-form {
+  text-align: center;
+  margin-top: 50px;
+  input {
+    padding: 10px;
+  }
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.result_text__bolt {
+  font-weight: 700;
+}
+
+.result_text__ligth {
+  font-weight: 700;
+}
+
+.wrapper {
+  margin: 10px;
+}
